@@ -1,0 +1,12 @@
+#Force enable VoLTE
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.allow_ims_off=1
+persist.dbg.wfc_avail_ovr=1
+persist.sys.phh.ims.caf=true
+
+persist.camera.HAL3.enabled=1
+
+# stereo speakers: orientation changes swap L/R channels
+ro.audio.monitorOrientation=true
+ro.audio.monitorRotation=true
